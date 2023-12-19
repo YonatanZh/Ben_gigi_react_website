@@ -1,0 +1,46 @@
+textarea {
+    resize: none;
+    width: 99%;
+    height: 100px;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    font: inherit;
+    width: 99%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-container {
+    width: 100%;
+}
+
+.contact-form {
+    display: grid;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.input-box {
+    align-items: center;
+}
+
+.submit-button {
+    grid-column: 1 / end;
+    justify-self: end;
+    font-size: inherit;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #293493FF;
+    max-width: 70px;
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        padding: 0;
+    }
+}
+
